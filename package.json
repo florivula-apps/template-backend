@@ -1,7 +1,7 @@
 {
-  "name": "gym-backend",
+  "name": "app-backend",
   "version": "1.0.0",
-  "description": "Backend for custom gym app.",
+  "description": "Node.js + Express + Prisma backend template",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/florivula/gym-backend.git"
+    "url": "git+https://github.com/florivula-apps/template-backend.git"
   },
-  "keywords": [],
+  "keywords": ["template", "express", "prisma", "typescript"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/florivula/gym-backend/issues"
+    "url": "https://github.com/florivula-apps/template-backend/issues"
   },
-  "homepage": "https://github.com/florivula/gym-backend#readme",
+  "homepage": "https://github.com/florivula-apps/template-backend#readme",
   "dependencies": {
     "@prisma/adapter-pg": "^7.4.0",
     "@prisma/client": "^7.4.0",
